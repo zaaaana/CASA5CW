@@ -1,5 +1,14 @@
 #QUANTITATIVE ANALYSIS OF FIRE DATA
 
+# loading packages
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(ggthemes)
+library(scales)
+library(maps)
+library(mapproj)
+
 #Colour Palette
 fire_causes_colours <- c("#f72885", "#b754de", "#fabc20")
 
